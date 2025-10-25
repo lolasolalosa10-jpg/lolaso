@@ -1,0 +1,1557 @@
+[25Oct2025 04:37:21.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Oct2025 04:37:21.017] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Oct2025 04:37:24.375] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Oct2025 04:37:24.585] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/lolaso/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[25Oct2025 04:37:25.065] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 04:37:25.066] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 04:37:25.067] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 04:37:25.068] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Oct2025 04:37:25.604] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[25Oct2025 04:37:28.041] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Oct2025 04:37:28.201] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[25Oct2025 04:37:28.204] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Oct2025 04:37:28.479] [main/INFO] [Puzzles Lib/]: Loading 47 mods:
+	- alexsmobs 1.22.9
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- argentinas_delight 1.1
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- bettervillage 3.3.1
+	- botarium 2.3.0
+	- chefsdelight 1.0.3-forge-1.20.1
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		|-- mixinextras 0.4.1
+		\-- ponder 1.0.80
+	- create_deep_dark 1.7.0
+	- create_new_age 1.1.4
+	- create_radar 0.3
+	- create_ultimate_factory 2.2.0
+	- createbigcannons 5.9.1
+	- createdieselgenerators 1.20.1-1.3.5
+	- curios 5.11.1+1.20.1
+	- enchantinginfuser 8.0.3
+	- endersdelight 1.1.3
+	- farmersdelight 1.20.1-1.2.9
+	- forge 47.3.7
+	- glitchcore 0.0.1.1
+	- ironchest 1.20.1-14.4.3
+	- jei 15.20.0.114
+	- libraryferret 4.0.0
+	- minecraft 1.20.1
+	- miners_delight 1.20.1-1.2.3
+	- mynethersdelight 1.20.1-1.7.5
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- ritchiesprojectilelib 2.1.0
+	- securitycraft 1.10.0.1
+	- solcarrot 1.15.0
+	- some_assembly_required 1.20.1-4.2.1
+	- sophisticatedbackpacks 3.24.2.1341
+	- sophisticatedcore 1.2.96.1182
+	- terrablender 3.0.1.8
+	- terralith 2.4.5
+	- trade_cycling 1.20.1-1.0.18
+	- voicechat 1.20.1-2.6.4
+		\-- voicechat_api 2.6.0
+	- weaponleveling 1.20.1-2.2.2
+		\-- midnightlib 1.4.2
+[25Oct2025 04:37:29.558] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/amendments/events/behaviors/InteractEvents (java.lang.ClassNotFoundException: net.mehvahdjukaar.amendments.events.behaviors.InteractEvents)
+[25Oct2025 04:37:29.559] [main/WARN] [mixin/]: @Mixin target net.mehvahdjukaar.amendments.events.behaviors.InteractEvents was not found mynethersdelight.mixins.json:amendments.InteractEventsMixin
+[25Oct2025 04:37:29.566] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[25Oct2025 04:37:29.567] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[25Oct2025 04:37:29.569] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[25Oct2025 04:37:29.569] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[25Oct2025 04:37:29.708] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[25Oct2025 04:37:29.708] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[25Oct2025 04:37:29.846] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/DaggerEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.DaggerEntity)
+[25Oct2025 04:37:29.849] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/common/Gun (java.lang.ClassNotFoundException: com.mrcrayfish.guns.common.Gun)
+[25Oct2025 04:37:29.851] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/item/GunItem (java.lang.ClassNotFoundException: com.mrcrayfish.guns.item.GunItem)
+[25Oct2025 04:37:29.853] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableBowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableBowItem)
+[25Oct2025 04:37:29.855] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableCrossbowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableCrossbowItem)
+[25Oct2025 04:37:29.857] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/SpearEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.SpearEntity)
+[25Oct2025 04:37:29.859] [main/WARN] [mixin/]: Error loading class: net/bettercombat/logic/WeaponRegistry (java.lang.ClassNotFoundException: net.bettercombat.logic.WeaponRegistry)
+[25Oct2025 04:37:30.200] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[25Oct2025 04:37:30.202] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[25Oct2025 04:37:30.204] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[25Oct2025 04:37:30.206] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[25Oct2025 04:37:30.269] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[25Oct2025 04:37:30.756] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[25Oct2025 04:37:36.415] [main/WARN] [mixin/]: @Final field f_35975_:Lnet/minecraft/core/NonNullList; in weaponleveling-common.mixins.json:InventoryMixin should be final
+[25Oct2025 04:37:37.285] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[25Oct2025 04:37:37.317] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[25Oct2025 04:37:37.581] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Oct2025 04:37:37.582] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[25Oct2025 04:37:37.587] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[25Oct2025 04:37:37.588] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[25Oct2025 04:37:37.593] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[25Oct2025 04:37:37.594] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[25Oct2025 04:37:37.596] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[25Oct2025 04:37:37.598] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[25Oct2025 04:37:37.892] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[25Oct2025 04:37:37.962] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Oct2025 04:37:37.962] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Oct2025 04:37:38.398] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
+[25Oct2025 04:37:38.404] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
+[25Oct2025 04:37:38.464] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
+[25Oct2025 04:37:38.494] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
+[25Oct2025 04:37:38.497] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
+[25Oct2025 04:37:38.509] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
+[25Oct2025 04:37:38.537] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
+[25Oct2025 04:37:38.539] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[25Oct2025 04:37:39.190] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[25Oct2025 04:37:39.220] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[25Oct2025 04:37:39.235] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[25Oct2025 04:37:40.282] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[25Oct2025 04:37:40.283] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[25Oct2025 04:37:42.506] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$12205/0x00007e02655b33f0@46cdb02c] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@75c1bb3d] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[25Oct2025 04:37:42.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.ReplaceItemModifier$$Lambda$12210/0x00007e02655b3f30@35529bcc] * Field[conditions: passthrough[flatXmapped]] * Field[removed_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@75c1bb3d] * Field[added_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@75c1bb3d] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:replace_item.
+[25Oct2025 04:37:42.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$12213/0x00007e02655b4600@4ec8aea9] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[25Oct2025 04:37:42.507] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$12216/0x00007e02655b4cb0@65af2b8c] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@75c1bb3d]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[25Oct2025 04:37:42.723] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[25Oct2025 04:37:42.782] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Sources!
+[25Oct2025 04:37:42.861] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[25Oct2025 04:37:42.874] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[25Oct2025 04:37:42.874] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[25Oct2025 04:37:42.874] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[25Oct2025 04:37:43.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[25Oct2025 04:37:43.357] [main/INFO] [com.happysg.radar.CreateRadar/]: Registered contraption type 'create_radar:radar_bearing'
+[25Oct2025 04:37:43.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[25Oct2025 04:37:43.385] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Oct2025 04:37:43.553] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[25Oct2025 04:37:43.554] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[25Oct2025 04:37:43.555] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[25Oct2025 04:37:43.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[25Oct2025 04:37:43.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[25Oct2025 04:37:44.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.4 Target: 1.20.1-2.6.6
+[25Oct2025 04:37:44.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[25Oct2025 04:37:44.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[25Oct2025 04:37:44.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[25Oct2025 04:37:44.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[25Oct2025 04:37:44.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[25Oct2025 04:37:44.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[25Oct2025 04:37:44.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[25Oct2025 04:37:44.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[25Oct2025 04:37:46.672] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Oct2025 04:37:46.815] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+kimetsunoyaiba (version 1 -> MISSING)
+Things may not work well.
+[25Oct2025 04:37:46.930] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	kimetsunoyaiba:bamboo_fence: 2915
+	kimetsunoyaiba:bento_block: 2922
+	kimetsunoyaiba:brazier: 2944
+	kimetsunoyaiba:cherry_blossoms: 2907
+	kimetsunoyaiba:chest_of_drawer: 2910
+	kimetsunoyaiba:cooker: 2945
+	kimetsunoyaiba:cushion_blue: 2929
+	kimetsunoyaiba:cushion_green: 2926
+	kimetsunoyaiba:cushion_purple: 2927
+	kimetsunoyaiba:cushion_red: 2928
+	kimetsunoyaiba:fuji_flower: 2912
+	kimetsunoyaiba:fusuma: 2893
+	kimetsunoyaiba:fusuma_2: 2894
+	kimetsunoyaiba:fusuma_4: 2935
+	kimetsunoyaiba:fusuma_42: 2936
+	kimetsunoyaiba:fusuma_5: 2937
+	kimetsunoyaiba:fusuma_52: 2938
+	kimetsunoyaiba:fusuma_6: 2939
+	kimetsunoyaiba:fusuma_62: 2940
+	kimetsunoyaiba:fusuma_7: 2942
+	kimetsunoyaiba:fusuma_72: 2943
+	kimetsunoyaiba:fusuma_flower: 2897
+	kimetsunoyaiba:fusuma_flower_2: 2898
+	kimetsunoyaiba:fusuma_mesh: 2905
+	kimetsunoyaiba:fusuma_mesh_2: 2906
+	kimetsunoyaiba:fusuma_window: 2895
+	kimetsunoyaiba:futon: 2908
+	kimetsunoyaiba:futon_2: 2909
+	kimetsunoyaiba:kaede_leaves: 2941
+	kimetsunoyaiba:kimetsu_window: 2916
+	kimetsunoyaiba:lantern_1: 2946
+	kimetsunoyaiba:lantern_2: 2899
+	kimetsunoyaiba:lantern_2red: 2900
+	kimetsunoyaiba:lantern_3: 2931
+	kimetsunoyaiba:medicine_holder: 2932
+	kimetsunoyaiba:microscope: 2933
+	kimetsunoyaiba:muzanblood_ore: 2890
+	kimetsunoyaiba:ohagi_block: 2923
+	kimetsunoyaiba:pancake_block: 2921
+	kimetsunoyaiba:rui_string: 2913
+	kimetsunoyaiba:sakura_mochi_block: 2920
+	kimetsunoyaiba:salmon_radish_block: 2924
+	kimetsunoyaiba:scarlet_ore_block: 2891
+	kimetsunoyaiba:scarlet_ore_block_rare: 2896
+	kimetsunoyaiba:shamisen_block: 2911
+	kimetsunoyaiba:smoke_tube_holder: 2934
+	kimetsunoyaiba:tatami: 2892
+	kimetsunoyaiba:tatami_2: 2901
+	kimetsunoyaiba:tea_block: 2925
+	kimetsunoyaiba:tenpura_block: 2930
+	kimetsunoyaiba:thatch: 2917
+	kimetsunoyaiba:thatch_halfblock: 2919
+	kimetsunoyaiba:thatch_stair: 2918
+	kimetsunoyaiba:tile: 2904
+	kimetsunoyaiba:tile_half_block: 2902
+	kimetsunoyaiba:tile_stair: 2903
+	kimetsunoyaiba:udon_block: 2914
+
+[25Oct2025 04:37:46.932] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	kimetsunoyaiba:crimson_red_blade: 47
+
+[25Oct2025 04:37:46.933] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	kimetsunoyaiba:akaza: 295
+	kimetsunoyaiba:akaza_punch_projectile: 435
+	kimetsunoyaiba:bamboo: 380
+	kimetsunoyaiba:blood_demon_art_genya_tree: 431
+	kimetsunoyaiba:bluesilverchaoticafterglow_projectile: 444
+	kimetsunoyaiba:boar: 346
+	kimetsunoyaiba:boar_golden: 376
+	kimetsunoyaiba:bullet_slashing_moon_projectile: 445
+	kimetsunoyaiba:butterfly: 298
+	kimetsunoyaiba:car: 307
+	kimetsunoyaiba:car_golden: 308
+	kimetsunoyaiba:chair_red: 427
+	kimetsunoyaiba:claws_purifying_wind: 390
+	kimetsunoyaiba:coccon: 375
+	kimetsunoyaiba:cold_white_princesses: 410
+	kimetsunoyaiba:constant_flux: 338
+	kimetsunoyaiba:countless_striking_trees: 409
+	kimetsunoyaiba:daki: 316
+	kimetsunoyaiba:demon: 301
+	kimetsunoyaiba:demon_10: 402
+	kimetsunoyaiba:demon_2: 394
+	kimetsunoyaiba:demon_3: 395
+	kimetsunoyaiba:demon_4: 396
+	kimetsunoyaiba:demon_5: 397
+	kimetsunoyaiba:demon_6: 398
+	kimetsunoyaiba:demon_7: 399
+	kimetsunoyaiba:demon_8: 400
+	kimetsunoyaiba:demon_9: 401
+	kimetsunoyaiba:demon_slayer: 303
+	kimetsunoyaiba:dice_steak_senior: 305
+	kimetsunoyaiba:dice_steak_senior_demon: 347
+	kimetsunoyaiba:dice_steak_senior_golden: 414
+	kimetsunoyaiba:dice_steak_senior_super: 321
+	kimetsunoyaiba:direction_arrow: 378
+	kimetsunoyaiba:doctor: 383
+	kimetsunoyaiba:doma: 299
+	kimetsunoyaiba:doma_kekkizyutu_projectile: 432
+	kimetsunoyaiba:doma_mini: 313
+	kimetsunoyaiba:dynamite: 412
+	kimetsunoyaiba:energy_wave: 340
+	kimetsunoyaiba:enko: 337
+	kimetsunoyaiba:enmu: 318
+	kimetsunoyaiba:enmu_tentacle: 403
+	kimetsunoyaiba:enmu_tentacle_hand: 428
+	kimetsunoyaiba:enmu_train: 404
+	kimetsunoyaiba:entity_compass_needle: 408
+	kimetsunoyaiba:entity_compass_needle_2: 429
+	kimetsunoyaiba:flame_dragon: 339
+	kimetsunoyaiba:genya: 332
+	kimetsunoyaiba:goldfishbig: 345
+	kimetsunoyaiba:grandmother: 384
+	kimetsunoyaiba:gyokko: 326
+	kimetsunoyaiba:gyokko_2: 372
+	kimetsunoyaiba:gyokko_fish_projectile: 440
+	kimetsunoyaiba:gyokko_goldfish: 343
+	kimetsunoyaiba:gyutaro: 315
+	kimetsunoyaiba:haganeduka: 324
+	kimetsunoyaiba:hairo: 368
+	kimetsunoyaiba:hakuji: 328
+	kimetsunoyaiba:hand_demon: 325
+	kimetsunoyaiba:hand_demon_hand: 348
+	kimetsunoyaiba:hantengu: 367
+	kimetsunoyaiba:hantengu_aizetsu: 352
+	kimetsunoyaiba:hantengu_karaku: 354
+	kimetsunoyaiba:hantengu_sekido: 353
+	kimetsunoyaiba:hantengu_urogi: 366
+	kimetsunoyaiba:himejima: 311
+	kimetsunoyaiba:himejima_axe: 423
+	kimetsunoyaiba:himejima_axe_2: 425
+	kimetsunoyaiba:himejima_ball: 424
+	kimetsunoyaiba:himejima_ball_2: 426
+	kimetsunoyaiba:honoikaduchi: 336
+	kimetsunoyaiba:icelotus: 300
+	kimetsunoyaiba:icicle_2_projectile: 438
+	kimetsunoyaiba:icicle_projectile: 437
+	kimetsunoyaiba:iguro: 293
+	kimetsunoyaiba:inosuke: 290
+	kimetsunoyaiba:kaigaku: 314
+	kimetsunoyaiba:kaigaku_human: 389
+	kimetsunoyaiba:kakushi: 374
+	kimetsunoyaiba:kamanue: 329
+	kimetsunoyaiba:kanae: 333
+	kimetsunoyaiba:kanawo: 317
+	kimetsunoyaiba:kanawo_buyer: 382
+	kimetsunoyaiba:kanroji: 310
+	kimetsunoyaiba:kasugai_crow: 349
+	kimetsunoyaiba:kemari_projectile: 446
+	kimetsunoyaiba:kocho: 296
+	kimetsunoyaiba:kokushibo: 306
+	kimetsunoyaiba:kokushirinten: 388
+	kimetsunoyaiba:kotetsu: 373
+	kimetsunoyaiba:kuwajima: 405
+	kimetsunoyaiba:kyogai: 355
+	kimetsunoyaiba:makomo: 320
+	kimetsunoyaiba:masachika: 393
+	kimetsunoyaiba:michikatsu: 322
+	kimetsunoyaiba:muichiro: 294
+	kimetsunoyaiba:mukago: 356
+	kimetsunoyaiba:murata: 369
+	kimetsunoyaiba:muscular_mouse: 407
+	kimetsunoyaiba:muzan: 309
+	kimetsunoyaiba:muzan_2: 330
+	kimetsunoyaiba:nakime: 363
+	kimetsunoyaiba:needle_projectile: 441
+	kimetsunoyaiba:nezuko: 288
+	kimetsunoyaiba:panda_face: 381
+	kimetsunoyaiba:pandan: 418
+	kimetsunoyaiba:peach_projectile: 447
+	kimetsunoyaiba:pistol_projectile: 448
+	kimetsunoyaiba:ranshiki_projectile: 439
+	kimetsunoyaiba:rengoku: 297
+	kimetsunoyaiba:rokuro: 358
+	kimetsunoyaiba:rui: 304
+	kimetsunoyaiba:rui_brother: 371
+	kimetsunoyaiba:rui_demon_art_string: 391
+	kimetsunoyaiba:rui_father: 370
+	kimetsunoyaiba:rui_human: 323
+	kimetsunoyaiba:rui_mother: 350
+	kimetsunoyaiba:rui_sister: 351
+	kimetsunoyaiba:sabito: 319
+	kimetsunoyaiba:school_inosuke: 422
+	kimetsunoyaiba:school_kocho: 420
+	kimetsunoyaiba:school_nezuko: 417
+	kimetsunoyaiba:school_tanjiro: 416
+	kimetsunoyaiba:school_tomioka: 419
+	kimetsunoyaiba:school_zenitsu: 421
+	kimetsunoyaiba:serpent: 387
+	kimetsunoyaiba:shadow_wolf: 411
+	kimetsunoyaiba:shinazugawa: 292
+	kimetsunoyaiba:slashing_moon: 377
+	kimetsunoyaiba:sneak: 341
+	kimetsunoyaiba:sneak_2: 342
+	kimetsunoyaiba:spider_demon: 385
+	kimetsunoyaiba:spider_net_2_projectile: 434
+	kimetsunoyaiba:spider_net_3_projectile: 443
+	kimetsunoyaiba:spider_net_projectile: 433
+	kimetsunoyaiba:stone_sword: 430
+	kimetsunoyaiba:suigokubati: 344
+	kimetsunoyaiba:suirenbosatsu: 392
+	kimetsunoyaiba:susamaru: 359
+	kimetsunoyaiba:swamp_demon: 365
+	kimetsunoyaiba:tamayo: 362
+	kimetsunoyaiba:tanjiro: 289
+	kimetsunoyaiba:tanjiro_demon: 331
+	kimetsunoyaiba:temple_demon: 364
+	kimetsunoyaiba:tobi_chigama_projectile: 436
+	kimetsunoyaiba:tomioka: 291
+	kimetsunoyaiba:toyosan: 379
+	kimetsunoyaiba:ubuyashiki: 386
+	kimetsunoyaiba:urokodaki: 413
+	kimetsunoyaiba:uzui: 312
+	kimetsunoyaiba:vase: 334
+	kimetsunoyaiba:wakuraba: 357
+	kimetsunoyaiba:yachan: 335
+	kimetsunoyaiba:yachan_brother: 406
+	kimetsunoyaiba:yahaba: 360
+	kimetsunoyaiba:yokaino_mayu_projectile: 442
+	kimetsunoyaiba:yorichi_0: 415
+	kimetsunoyaiba:yoriichi: 302
+	kimetsunoyaiba:yushiro: 361
+	kimetsunoyaiba:zenitsu: 287
+	kimetsunoyaiba:zohakuten: 327
+
+[25Oct2025 04:37:46.937] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	kimetsunoyaiba:akaza_head: 4061
+	kimetsunoyaiba:akaza_spawn_egg: 3955
+	kimetsunoyaiba:anpan: 4307
+	kimetsunoyaiba:armor_ravaged_war_formation_wolf_chestplate: 4217
+	kimetsunoyaiba:armor_ravaged_war_formation_wolf_helmet: 4216
+	kimetsunoyaiba:armor_ravaged_war_formation_wolf_leggings: 4218
+	kimetsunoyaiba:bamboo_fence: 4129
+	kimetsunoyaiba:bamboo_sword: 4250
+	kimetsunoyaiba:bento: 4295
+	kimetsunoyaiba:bento_block: 4157
+	kimetsunoyaiba:black_blood_brambles: 4232
+	kimetsunoyaiba:blood_of_muzan: 4289
+	kimetsunoyaiba:blooddemonart_akaza: 3991
+	kimetsunoyaiba:blooddemonart_demon_king: 4024
+	kimetsunoyaiba:blooddemonart_enmu: 4053
+	kimetsunoyaiba:blooddemonart_gyokko: 4051
+	kimetsunoyaiba:blooddemonart_kamanue: 4152
+	kimetsunoyaiba:blooddemonart_nakime: 4164
+	kimetsunoyaiba:blooddemonart_nezuko: 3977
+	kimetsunoyaiba:blooddemonart_nezuko_clear: 4263
+	kimetsunoyaiba:blooddemonart_rokuro: 4282
+	kimetsunoyaiba:blooddemonart_rui: 3976
+	kimetsunoyaiba:blooddemonart_rui_sister: 4118
+	kimetsunoyaiba:blooddemonart_yahaba: 4128
+	kimetsunoyaiba:blooddemonart_zohakuten: 4049
+	kimetsunoyaiba:boar_flesh: 4301
+	kimetsunoyaiba:boar_golden_spawn_egg: 4119
+	kimetsunoyaiba:boar_head: 3942
+	kimetsunoyaiba:boar_spawn_egg: 4064
+	kimetsunoyaiba:brazier: 4280
+	kimetsunoyaiba:car_golden_spawn_egg: 3993
+	kimetsunoyaiba:car_spawn_egg: 3992
+	kimetsunoyaiba:cherry_blossoms: 4077
+	kimetsunoyaiba:chest_of_drawer: 4080
+	kimetsunoyaiba:chigama: 4004
+	kimetsunoyaiba:clothes_akaza_chestplate: 4259
+	kimetsunoyaiba:clothes_akaza_helmet: 4258
+	kimetsunoyaiba:clothes_akaza_leggings: 4260
+	kimetsunoyaiba:clothes_bamboo_boots: 4210
+	kimetsunoyaiba:clothes_bamboo_chestplate: 4209
+	kimetsunoyaiba:clothes_cherry_blossom_chestplate: 4211
+	kimetsunoyaiba:clothes_doma_chestplate: 4275
+	kimetsunoyaiba:clothes_doma_leggings: 4276
+	kimetsunoyaiba:clothes_gyutaro_chestplate: 4283
+	kimetsunoyaiba:clothes_gyutaro_leggings: 4284
+	kimetsunoyaiba:clothes_hand_demon_chestplate: 4123
+	kimetsunoyaiba:clothes_himejima_chestplate: 4257
+	kimetsunoyaiba:clothes_iguro_chestplate: 4111
+	kimetsunoyaiba:clothes_kaigaku_chestplate: 4278
+	kimetsunoyaiba:clothes_kocho_chestplate: 3962
+	kimetsunoyaiba:clothes_kokushibo_chestplate: 4201
+	kimetsunoyaiba:clothes_rengoku_chestplate: 3961
+	kimetsunoyaiba:clothes_rui_chestplate: 4277
+	kimetsunoyaiba:clothes_shinazugawa_chestplate: 3963
+	kimetsunoyaiba:clothes_tanjiro_chestplate: 3974
+	kimetsunoyaiba:clothes_tomioka_chestplate: 3960
+	kimetsunoyaiba:clothes_yorichi_chestplate: 4273
+	kimetsunoyaiba:clothes_yorichi_leggings: 4274
+	kimetsunoyaiba:clothes_zenitsu_chestplate: 3964
+	kimetsunoyaiba:coccon_item: 4117
+	kimetsunoyaiba:cooker: 4281
+	kimetsunoyaiba:cushion_blue: 4226
+	kimetsunoyaiba:cushion_green: 4223
+	kimetsunoyaiba:cushion_purple: 4224
+	kimetsunoyaiba:cushion_red: 4225
+	kimetsunoyaiba:d_ice_steak_head_3: 3983
+	kimetsunoyaiba:daki_head_1: 4125
+	kimetsunoyaiba:daki_head_2: 4126
+	kimetsunoyaiba:daki_kimono_chestplate: 4124
+	kimetsunoyaiba:daki_spawn_egg: 4007
+	kimetsunoyaiba:demon_10_spawn_egg: 4194
+	kimetsunoyaiba:demon_2_spawn_egg: 4186
+	kimetsunoyaiba:demon_3_spawn_egg: 4187
+	kimetsunoyaiba:demon_4_spawn_egg: 4188
+	kimetsunoyaiba:demon_5_spawn_egg: 4189
+	kimetsunoyaiba:demon_6_spawn_egg: 4190
+	kimetsunoyaiba:demon_7_spawn_egg: 4191
+	kimetsunoyaiba:demon_8_spawn_egg: 4192
+	kimetsunoyaiba:demon_9_spawn_egg: 4193
+	kimetsunoyaiba:demon_hand: 4288
+	kimetsunoyaiba:demon_slayer_mark_mist: 4120
+	kimetsunoyaiba:demon_slayer_mark_water: 4121
+	kimetsunoyaiba:demon_slayer_mark_wind: 4122
+	kimetsunoyaiba:demon_slayer_spawn_egg: 3973
+	kimetsunoyaiba:demon_spawn_egg: 3971
+	kimetsunoyaiba:dice_steak_arm: 3985
+	kimetsunoyaiba:dice_steak_body: 3987
+	kimetsunoyaiba:dice_steak_head_1: 3981
+	kimetsunoyaiba:dice_steak_head_2: 3982
+	kimetsunoyaiba:dice_steak_head_4: 3984
+	kimetsunoyaiba:dice_steak_head_helmet: 4065
+	kimetsunoyaiba:dice_steak_leg: 3986
+	kimetsunoyaiba:dice_steak_senior_demon_spawn_egg: 4066
+	kimetsunoyaiba:dice_steak_senior_golden_spawn_egg: 4231
+	kimetsunoyaiba:dice_steak_senior_item: 3988
+	kimetsunoyaiba:dice_steak_senior_spawn_egg: 3978
+	kimetsunoyaiba:dice_steak_senior_super_spawn_egg: 4018
+	kimetsunoyaiba:doctor_spawn_egg: 4147
+	kimetsunoyaiba:doma_hat: 4213
+	kimetsunoyaiba:doma_spawn_egg: 3965
+	kimetsunoyaiba:drum: 4230
+	kimetsunoyaiba:drum_armor_chestplate: 4227
+	kimetsunoyaiba:enmu_spawn_egg: 4014
+	kimetsunoyaiba:eyepatch: 4181
+	kimetsunoyaiba:farewell_note: 4174
+	kimetsunoyaiba:french_bread: 4306
+	kimetsunoyaiba:fuji_flower: 4084
+	kimetsunoyaiba:fusuma: 4011
+	kimetsunoyaiba:fusuma_2: 4012
+	kimetsunoyaiba:fusuma_4: 4264
+	kimetsunoyaiba:fusuma_42: 4265
+	kimetsunoyaiba:fusuma_5: 4266
+	kimetsunoyaiba:fusuma_52: 4267
+	kimetsunoyaiba:fusuma_6: 4268
+	kimetsunoyaiba:fusuma_62: 4269
+	kimetsunoyaiba:fusuma_7: 4271
+	kimetsunoyaiba:fusuma_72: 4272
+	kimetsunoyaiba:fusuma_flower: 4067
+	kimetsunoyaiba:fusuma_flower_2: 4068
+	kimetsunoyaiba:fusuma_mesh: 4075
+	kimetsunoyaiba:fusuma_mesh_2: 4076
+	kimetsunoyaiba:fusuma_window: 4013
+	kimetsunoyaiba:futon: 4078
+	kimetsunoyaiba:futon_2: 4079
+	kimetsunoyaiba:genya_spawn_egg: 4046
+	kimetsunoyaiba:gimlet: 4159
+	kimetsunoyaiba:goldfishbig_spawn_egg: 4063
+	kimetsunoyaiba:grandmother_spawn_egg: 4148
+	kimetsunoyaiba:gyokko_2_spawn_egg: 4108
+	kimetsunoyaiba:gyokko_spawn_egg: 4040
+	kimetsunoyaiba:gyutaro_head: 4200
+	kimetsunoyaiba:gyutaro_spawn_egg: 4006
+	kimetsunoyaiba:haganeduka_spawn_egg: 4022
+	kimetsunoyaiba:hair_muichiro_demon_slayer_mark_helmet: 4285
+	kimetsunoyaiba:hair_ornament_cherry_blossom: 4182
+	kimetsunoyaiba:hair_tsugikuni: 4212
+	kimetsunoyaiba:hairo_mant_chestplate: 4256
+	kimetsunoyaiba:hairo_spawn_egg: 4104
+	kimetsunoyaiba:hakuji_spawn_egg: 4042
+	kimetsunoyaiba:hand_demon_spawn_egg: 4025
+	kimetsunoyaiba:handfan: 3966
+	kimetsunoyaiba:hantengu_aizetsu_spawn_egg: 4090
+	kimetsunoyaiba:hantengu_karaku_spawn_egg: 4092
+	kimetsunoyaiba:hantengu_sekido_spawn_egg: 4091
+	kimetsunoyaiba:hantengu_spawn_egg: 4103
+	kimetsunoyaiba:hantengu_urogi_spawn_egg: 4102
+	kimetsunoyaiba:himejima_spawn_egg: 3998
+	kimetsunoyaiba:horns: 4180
+	kimetsunoyaiba:human_flesh: 4290
+	kimetsunoyaiba:human_flesh_2: 4291
+	kimetsunoyaiba:iguro_spawn_egg: 3949
+	kimetsunoyaiba:inosuke_spawn_egg: 3944
+	kimetsunoyaiba:item_constant_flux: 4058
+	kimetsunoyaiba:item_direction_arrow: 4127
+	kimetsunoyaiba:item_flame_dragon: 4059
+	kimetsunoyaiba:item_serpent: 4153
+	kimetsunoyaiba:item_sneak_helmet: 4214
+	kimetsunoyaiba:item_sneak_red_helmet: 4215
+	kimetsunoyaiba:kaburamaru_helmet: 4002
+	kimetsunoyaiba:kaede_leaves: 4270
+	kimetsunoyaiba:kaigaku_human_spawn_egg: 4158
+	kimetsunoyaiba:kaigaku_spawn_egg: 4005
+	kimetsunoyaiba:kakushi_spawn_egg: 4110
+	kimetsunoyaiba:kamanue_spawn_egg: 4043
+	kimetsunoyaiba:kanae_spawn_egg: 4047
+	kimetsunoyaiba:kanawo_buyer_spawn_egg: 4144
+	kimetsunoyaiba:kanawo_spawn_egg: 4008
+	kimetsunoyaiba:kanroji_spawn_egg: 3997
+	kimetsunoyaiba:kasugai_crow_spawn_egg: 4086
+	kimetsunoyaiba:kemari: 4312
+	kimetsunoyaiba:khakkhara: 4160
+	kimetsunoyaiba:kimetsu_window: 4130
+	kimetsunoyaiba:kitchen_knife: 4017
+	kimetsunoyaiba:kocho_spawn_egg: 3957
+	kimetsunoyaiba:kokushibo_head_1_helmet: 4202
+	kimetsunoyaiba:kokushibo_head_2_helmet: 4203
+	kimetsunoyaiba:kokushibo_spawn_egg: 3979
+	kimetsunoyaiba:kokushibo_tentacles_chestplate: 4204
+	kimetsunoyaiba:kotetsu_spawn_egg: 4109
+	kimetsunoyaiba:kunai: 4199
+	kimetsunoyaiba:kuwajima_spawn_egg: 4196
+	kimetsunoyaiba:kyogai_spawn_egg: 4093
+	kimetsunoyaiba:lantern_1: 4286
+	kimetsunoyaiba:lantern_2: 4069
+	kimetsunoyaiba:lantern_2red: 4070
+	kimetsunoyaiba:lantern_3: 4238
+	kimetsunoyaiba:liquor: 4304
+	kimetsunoyaiba:makomo_spawn_egg: 4016
+	kimetsunoyaiba:masachika_spawn_egg: 4175
+	kimetsunoyaiba:mask_hyottoko_helmet: 4115
+	kimetsunoyaiba:mask_tengu_helmet: 4114
+	kimetsunoyaiba:medicine_aging: 4235
+	kimetsunoyaiba:medicine_cell_destruction: 4237
+	kimetsunoyaiba:medicine_division_inhibition: 4236
+	kimetsunoyaiba:medicine_holder: 4239
+	kimetsunoyaiba:medicine_human_return: 4234
+	kimetsunoyaiba:michikatsu_spawn_egg: 4019
+	kimetsunoyaiba:microscope: 4240
+	kimetsunoyaiba:minigun: 4220
+	kimetsunoyaiba:mitarashi_dango: 4303
+	kimetsunoyaiba:muichiro_spawn_egg: 3954
+	kimetsunoyaiba:mukago_spawn_egg: 4094
+	kimetsunoyaiba:mukimuki_chestplate: 4219
+	kimetsunoyaiba:murata_spawn_egg: 4105
+	kimetsunoyaiba:muscular_mouse_spawn_egg: 4198
+	kimetsunoyaiba:muzan_2_spawn_egg: 4044
+	kimetsunoyaiba:muzan_hand: 4150
+	kimetsunoyaiba:muzan_hand_2: 4195
+	kimetsunoyaiba:muzan_hat_helmet: 4279
+	kimetsunoyaiba:muzan_spawn_egg: 3995
+	kimetsunoyaiba:muzan_tentacles_chestplate: 4055
+	kimetsunoyaiba:muzan_tentacles_helmet: 4054
+	kimetsunoyaiba:muzanblood_ore: 3967
+	kimetsunoyaiba:nakime_spawn_egg: 4101
+	kimetsunoyaiba:nezuko_spawn_egg: 3940
+	kimetsunoyaiba:nichirinsword: 3933
+	kimetsunoyaiba:nichirinsword_bamboo: 4137
+	kimetsunoyaiba:nichirinsword_bamboo_2: 4176
+	kimetsunoyaiba:nichirinsword_black: 3935
+	kimetsunoyaiba:nichirinsword_cherry_blossom: 4154
+	kimetsunoyaiba:nichirinsword_flame: 3936
+	kimetsunoyaiba:nichirinsword_genya: 4183
+	kimetsunoyaiba:nichirinsword_golden: 4233
+	kimetsunoyaiba:nichirinsword_himejima_1: 4138
+	kimetsunoyaiba:nichirinsword_himejima_2: 4139
+	kimetsunoyaiba:nichirinsword_iguro: 3947
+	kimetsunoyaiba:nichirinsword_inosuke: 3943
+	kimetsunoyaiba:nichirinsword_kaigaku: 4003
+	kimetsunoyaiba:nichirinsword_kanae: 4052
+	kimetsunoyaiba:nichirinsword_kanawo: 4009
+	kimetsunoyaiba:nichirinsword_kanroji: 4039
+	kimetsunoyaiba:nichirinsword_kocho: 3956
+	kimetsunoyaiba:nichirinsword_mist: 3937
+	kimetsunoyaiba:nichirinsword_rengoku: 3958
+	kimetsunoyaiba:nichirinsword_senior: 3980
+	kimetsunoyaiba:nichirinsword_senior_2: 4083
+	kimetsunoyaiba:nichirinsword_senior_super: 4255
+	kimetsunoyaiba:nichirinsword_shinazugawa: 3948
+	kimetsunoyaiba:nichirinsword_tanjiro: 3950
+	kimetsunoyaiba:nichirinsword_tanjiro_2: 4026
+	kimetsunoyaiba:nichirinsword_thunder: 3934
+	kimetsunoyaiba:nichirinsword_tokito: 3953
+	kimetsunoyaiba:nichirinsword_tomioka: 3951
+	kimetsunoyaiba:nichirinsword_uzui: 4000
+	kimetsunoyaiba:nichirinsword_water: 3939
+	kimetsunoyaiba:nichirinsword_wind: 3938
+	kimetsunoyaiba:nichirinsword_yoriichi: 3994
+	kimetsunoyaiba:nichirinsword_zenitsu: 3952
+	kimetsunoyaiba:nichirinswordmoon: 3996
+	kimetsunoyaiba:ohagi: 4296
+	kimetsunoyaiba:ohagi_block: 4162
+	kimetsunoyaiba:onigiri: 4300
+	kimetsunoyaiba:orca: 4001
+	kimetsunoyaiba:pancake: 4293
+	kimetsunoyaiba:pancake_block: 4156
+	kimetsunoyaiba:panda_armor_boots: 4143
+	kimetsunoyaiba:panda_armor_chestplate: 4141
+	kimetsunoyaiba:panda_armor_helmet: 4140
+	kimetsunoyaiba:panda_armor_leggings: 4142
+	kimetsunoyaiba:panda_hood_helmet: 4206
+	kimetsunoyaiba:pandan_spawn_egg: 4248
+	kimetsunoyaiba:peach: 4313
+	kimetsunoyaiba:peach_food: 4310
+	kimetsunoyaiba:pistol: 4314
+	kimetsunoyaiba:radish_with_miso: 4309
+	kimetsunoyaiba:ramune: 4305
+	kimetsunoyaiba:rengoku_head_1: 4146
+	kimetsunoyaiba:rengoku_head_2: 4171
+	kimetsunoyaiba:rengoku_spawn_egg: 3959
+	kimetsunoyaiba:rice_dumpling: 4302
+	kimetsunoyaiba:rifle: 4221
+	kimetsunoyaiba:rokuro_spawn_egg: 4096
+	kimetsunoyaiba:rui_brother_spawn_egg: 4107
+	kimetsunoyaiba:rui_father_spawn_egg: 4106
+	kimetsunoyaiba:rui_human_spawn_egg: 4020
+	kimetsunoyaiba:rui_mother_spawn_egg: 4088
+	kimetsunoyaiba:rui_sister_spawn_egg: 4089
+	kimetsunoyaiba:rui_spawn_egg: 3975
+	kimetsunoyaiba:rui_string: 4085
+	kimetsunoyaiba:saber: 4249
+	kimetsunoyaiba:sabito_mask_helmet: 4060
+	kimetsunoyaiba:sabito_spawn_egg: 4015
+	kimetsunoyaiba:sakura_mochi: 4294
+	kimetsunoyaiba:sakura_mochi_block: 4155
+	kimetsunoyaiba:salmon_radish: 4297
+	kimetsunoyaiba:salmon_radish_block: 4177
+	kimetsunoyaiba:scarlet_ironsand: 3969
+	kimetsunoyaiba:scarlet_ore: 3970
+	kimetsunoyaiba:scarlet_ore_block: 3968
+	kimetsunoyaiba:scarlet_ore_block_rare: 4021
+	kimetsunoyaiba:scarlet_ore_rare: 4023
+	kimetsunoyaiba:school_bag: 4245
+	kimetsunoyaiba:school_inosuke_spawn_egg: 4254
+	kimetsunoyaiba:school_kocho_spawn_egg: 4252
+	kimetsunoyaiba:school_nezuko_spawn_egg: 4247
+	kimetsunoyaiba:school_tanjiro_spawn_egg: 4246
+	kimetsunoyaiba:school_tomioka_spawn_egg: 4251
+	kimetsunoyaiba:school_zenitsu_spawn_egg: 4253
+	kimetsunoyaiba:set_meal: 4308
+	kimetsunoyaiba:shamisen: 4081
+	kimetsunoyaiba:shamisen_block: 4082
+	kimetsunoyaiba:shinazugawa_spawn_egg: 3946
+	kimetsunoyaiba:smoke_tube_holder: 4261
+	kimetsunoyaiba:snow_crystal_clear: 4262
+	kimetsunoyaiba:spear: 4179
+	kimetsunoyaiba:spider_demon_spawn_egg: 4149
+	kimetsunoyaiba:spider_head_helmet: 4116
+	kimetsunoyaiba:suigokubati_item: 4062
+	kimetsunoyaiba:susamaru_spawn_egg: 4097
+	kimetsunoyaiba:sword_hairo: 4222
+	kimetsunoyaiba:sword_kokushibo_1: 3989
+	kimetsunoyaiba:sword_kokushibo_2: 3990
+	kimetsunoyaiba:sword_kokushibo_body: 4205
+	kimetsunoyaiba:tamayo_spawn_egg: 4100
+	kimetsunoyaiba:tanjiro_demon_spawn_egg: 4045
+	kimetsunoyaiba:tanjiro_head_1: 4135
+	kimetsunoyaiba:tanjiro_head_2: 4136
+	kimetsunoyaiba:tanjiro_head_3: 4145
+	kimetsunoyaiba:tanjiro_head_4: 4173
+	kimetsunoyaiba:tanjiro_head_5: 4244
+	kimetsunoyaiba:tanjiro_spawn_egg: 3941
+	kimetsunoyaiba:tanjiro_tentacles_chestplate: 4056
+	kimetsunoyaiba:tatami: 4010
+	kimetsunoyaiba:tatami_2: 4071
+	kimetsunoyaiba:tea: 4298
+	kimetsunoyaiba:tea_block: 4178
+	kimetsunoyaiba:tengu_handfan: 4207
+	kimetsunoyaiba:tenpura: 4299
+	kimetsunoyaiba:tenpura_block: 4229
+	kimetsunoyaiba:thatch: 4132
+	kimetsunoyaiba:thatch_halfblock: 4134
+	kimetsunoyaiba:thatch_stair: 4133
+	kimetsunoyaiba:tile: 4074
+	kimetsunoyaiba:tile_half_block: 4072
+	kimetsunoyaiba:tile_stair: 4073
+	kimetsunoyaiba:tomioka_spawn_egg: 3945
+	kimetsunoyaiba:toyosan_spawn_egg: 4131
+	kimetsunoyaiba:ubuyashiki_spawn_egg: 4151
+	kimetsunoyaiba:udon: 4292
+	kimetsunoyaiba:udon_block: 4087
+	kimetsunoyaiba:uniform_boots: 4029
+	kimetsunoyaiba:uniform_chestplate: 4027
+	kimetsunoyaiba:uniform_genya_chestplate: 4287
+	kimetsunoyaiba:uniform_iguro_chestplate: 4112
+	kimetsunoyaiba:uniform_kocho_boots: 4035
+	kimetsunoyaiba:uniform_kocho_chestplate: 4034
+	kimetsunoyaiba:uniform_leggings: 4028
+	kimetsunoyaiba:uniform_muichiro_chestplate: 4169
+	kimetsunoyaiba:uniform_muichiro_helmet: 4168
+	kimetsunoyaiba:uniform_muichiro_leggings: 4170
+	kimetsunoyaiba:uniform_rengoku_boots: 4037
+	kimetsunoyaiba:uniform_rengoku_chestplate: 4036
+	kimetsunoyaiba:uniform_shinazugawa_chestplate: 4033
+	kimetsunoyaiba:uniform_tanjiro_chestplate: 4038
+	kimetsunoyaiba:uniform_tomioka_chestplate: 4030
+	kimetsunoyaiba:uniform_uzui_boots: 4167
+	kimetsunoyaiba:uniform_uzui_chestplate: 4165
+	kimetsunoyaiba:uniform_uzui_leggings: 4166
+	kimetsunoyaiba:uniform_zenitsu_boots: 4032
+	kimetsunoyaiba:uniform_zenitsu_chestplate: 4031
+	kimetsunoyaiba:urogi_hand: 4185
+	kimetsunoyaiba:urogi_wings_chestplate: 4184
+	kimetsunoyaiba:urokodaki_spawn_egg: 4228
+	kimetsunoyaiba:uzui_decoration_helmet: 4113
+	kimetsunoyaiba:uzui_spawn_egg: 3999
+	kimetsunoyaiba:vase_item: 4050
+	kimetsunoyaiba:wakuraba_spawn_egg: 4095
+	kimetsunoyaiba:watermelon: 4311
+	kimetsunoyaiba:whistle: 4241
+	kimetsunoyaiba:yachan_brother_spawn_egg: 4197
+	kimetsunoyaiba:yachan_spawn_egg: 4057
+	kimetsunoyaiba:yahaba_spawn_egg: 4098
+	kimetsunoyaiba:yorichi_0_armor_chestplate: 4243
+	kimetsunoyaiba:yorichi_0_spawn_egg: 4242
+	kimetsunoyaiba:yoriichi_spawn_egg: 3972
+	kimetsunoyaiba:yushiro_spawn_egg: 4099
+	kimetsunoyaiba:zenitsu_head_1: 4161
+	kimetsunoyaiba:zenitsu_head_2: 4163
+	kimetsunoyaiba:zenitsu_head_helmet: 4172
+	kimetsunoyaiba:zenitsu_spawn_egg: 3932
+	kimetsunoyaiba:zohakuten_clothes_chestplate: 4208
+	kimetsunoyaiba:zohakuten_drum_chestplate: 4048
+	kimetsunoyaiba:zohakuten_spawn_egg: 4041
+
+[25Oct2025 04:37:46.941] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	kimetsunoyaiba:attack_endure: 95
+	kimetsunoyaiba:blood_demon_art: 87
+	kimetsunoyaiba:cell_destruction: 97
+	kimetsunoyaiba:cold: 81
+	kimetsunoyaiba:compass_needle: 92
+	kimetsunoyaiba:cool_time: 89
+	kimetsunoyaiba:cooltime_2: 96
+	kimetsunoyaiba:demon: 82
+	kimetsunoyaiba:dream: 93
+	kimetsunoyaiba:god_hand: 90
+	kimetsunoyaiba:immvable: 91
+	kimetsunoyaiba:potion_demon_slayer_mark: 86
+	kimetsunoyaiba:potion_transparent_world: 88
+	kimetsunoyaiba:potion_yorichi: 94
+	kimetsunoyaiba:regeneration_inhibition: 85
+	kimetsunoyaiba:suffocation: 84
+	kimetsunoyaiba:total_concentration: 83
+	kimetsunoyaiba:wisteriapoison: 80
+
+[25Oct2025 04:37:46.941] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	kimetsunoyaiba:awakening: 1838
+	kimetsunoyaiba:bamboo: 1848
+	kimetsunoyaiba:bone_crash: 1847
+	kimetsunoyaiba:calm: 1855
+	kimetsunoyaiba:change_to_demon: 1844
+	kimetsunoyaiba:crack1: 1860
+	kimetsunoyaiba:crack2: 1861
+	kimetsunoyaiba:dicesteak: 1841
+	kimetsunoyaiba:electric_shock: 1854
+	kimetsunoyaiba:engin: 1837
+	kimetsunoyaiba:fire1: 1849
+	kimetsunoyaiba:flash: 1842
+	kimetsunoyaiba:guard_punch: 1857
+	kimetsunoyaiba:guard_sword: 1858
+	kimetsunoyaiba:kachi: 1859
+	kimetsunoyaiba:pistol_shot: 1839
+	kimetsunoyaiba:punch_hit1: 1853
+	kimetsunoyaiba:shamisen_sound: 1846
+	kimetsunoyaiba:slip: 1862
+	kimetsunoyaiba:spring_birds: 1850
+	kimetsunoyaiba:sword_putin: 1843
+	kimetsunoyaiba:sword_sweep: 1845
+	kimetsunoyaiba:thunder1: 1856
+	kimetsunoyaiba:thunder2: 1851
+	kimetsunoyaiba:tudumi: 1852
+	kimetsunoyaiba:water: 1840
+
+[25Oct2025 04:37:46.943] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 647 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[25Oct2025 04:37:46.943] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    kimetsunoyaiba:awakening
+    kimetsunoyaiba:bamboo
+    kimetsunoyaiba:bone_crash
+    kimetsunoyaiba:calm
+    kimetsunoyaiba:change_to_demon
+    kimetsunoyaiba:crack1
+    kimetsunoyaiba:crack2
+    kimetsunoyaiba:dicesteak
+    kimetsunoyaiba:electric_shock
+    kimetsunoyaiba:engin
+    kimetsunoyaiba:fire1
+    kimetsunoyaiba:flash
+    kimetsunoyaiba:guard_punch
+    kimetsunoyaiba:guard_sword
+    kimetsunoyaiba:kachi
+    kimetsunoyaiba:pistol_shot
+    kimetsunoyaiba:punch_hit1
+    kimetsunoyaiba:shamisen_sound
+    kimetsunoyaiba:slip
+    kimetsunoyaiba:spring_birds
+    kimetsunoyaiba:sword_putin
+    kimetsunoyaiba:sword_sweep
+    kimetsunoyaiba:thunder1
+    kimetsunoyaiba:thunder2
+    kimetsunoyaiba:tudumi
+    kimetsunoyaiba:water
+
+Missing minecraft:item:
+    kimetsunoyaiba:akaza_head
+    kimetsunoyaiba:akaza_spawn_egg
+    kimetsunoyaiba:anpan
+    kimetsunoyaiba:armor_ravaged_war_formation_wolf_chestplate
+    kimetsunoyaiba:armor_ravaged_war_formation_wolf_helmet
+    kimetsunoyaiba:armor_ravaged_war_formation_wolf_leggings
+    kimetsunoyaiba:bamboo_fence
+    kimetsunoyaiba:bamboo_sword
+    kimetsunoyaiba:bento
+    kimetsunoyaiba:bento_block
+    kimetsunoyaiba:black_blood_brambles
+    kimetsunoyaiba:blood_of_muzan
+    kimetsunoyaiba:blooddemonart_akaza
+    kimetsunoyaiba:blooddemonart_demon_king
+    kimetsunoyaiba:blooddemonart_enmu
+    kimetsunoyaiba:blooddemonart_gyokko
+    kimetsunoyaiba:blooddemonart_kamanue
+    kimetsunoyaiba:blooddemonart_nakime
+    kimetsunoyaiba:blooddemonart_nezuko
+    kimetsunoyaiba:blooddemonart_nezuko_clear
+    kimetsunoyaiba:blooddemonart_rokuro
+    kimetsunoyaiba:blooddemonart_rui
+    kimetsunoyaiba:blooddemonart_rui_sister
+    kimetsunoyaiba:blooddemonart_yahaba
+    kimetsunoyaiba:blooddemonart_zohakuten
+    kimetsunoyaiba:boar_flesh
+    kimetsunoyaiba:boar_golden_spawn_egg
+    kimetsunoyaiba:boar_head
+    kimetsunoyaiba:boar_spawn_egg
+    kimetsunoyaiba:brazier
+    kimetsunoyaiba:car_golden_spawn_egg
+    kimetsunoyaiba:car_spawn_egg
+    kimetsunoyaiba:cherry_blossoms
+    kimetsunoyaiba:chest_of_drawer
+    kimetsunoyaiba:chigama
+    kimetsunoyaiba:clothes_akaza_chestplate
+    kimetsunoyaiba:clothes_akaza_helmet
+    kimetsunoyaiba:clothes_akaza_leggings
+    kimetsunoyaiba:clothes_bamboo_boots
+    kimetsunoyaiba:clothes_bamboo_chestplate
+    kimetsunoyaiba:clothes_cherry_blossom_chestplate
+    kimetsunoyaiba:clothes_doma_chestplate
+    kimetsunoyaiba:clothes_doma_leggings
+    kimetsunoyaiba:clothes_gyutaro_chestplate
+    kimetsunoyaiba:clothes_gyutaro_leggings
+    kimetsunoyaiba:clothes_hand_demon_chestplate
+    kimetsunoyaiba:clothes_himejima_chestplate
+    kimetsunoyaiba:clothes_iguro_chestplate
+    kimetsunoyaiba:clothes_kaigaku_chestplate
+    kimetsunoyaiba:clothes_kocho_chestplate
+    kimetsunoyaiba:clothes_kokushibo_chestplate
+    kimetsunoyaiba:clothes_rengoku_chestplate
+    kimetsunoyaiba:clothes_rui_chestplate
+    kimetsunoyaiba:clothes_shinazugawa_chestplate
+    kimetsunoyaiba:clothes_tanjiro_chestplate
+    kimetsunoyaiba:clothes_tomioka_chestplate
+    kimetsunoyaiba:clothes_yorichi_chestplate
+    kimetsunoyaiba:clothes_yorichi_leggings
+    kimetsunoyaiba:clothes_zenitsu_chestplate
+    kimetsunoyaiba:coccon_item
+    kimetsunoyaiba:cooker
+    kimetsunoyaiba:cushion_blue
+    kimetsunoyaiba:cushion_green
+    kimetsunoyaiba:cushion_purple
+    kimetsunoyaiba:cushion_red
+    kimetsunoyaiba:d_ice_steak_head_3
+    kimetsunoyaiba:daki_head_1
+    kimetsunoyaiba:daki_head_2
+    kimetsunoyaiba:daki_kimono_chestplate
+    kimetsunoyaiba:daki_spawn_egg
+    kimetsunoyaiba:demon_10_spawn_egg
+    kimetsunoyaiba:demon_2_spawn_egg
+    kimetsunoyaiba:demon_3_spawn_egg
+    kimetsunoyaiba:demon_4_spawn_egg
+    kimetsunoyaiba:demon_5_spawn_egg
+    kimetsunoyaiba:demon_6_spawn_egg
+    kimetsunoyaiba:demon_7_spawn_egg
+    kimetsunoyaiba:demon_8_spawn_egg
+    kimetsunoyaiba:demon_9_spawn_egg
+    kimetsunoyaiba:demon_hand
+    kimetsunoyaiba:demon_slayer_mark_mist
+    kimetsunoyaiba:demon_slayer_mark_water
+    kimetsunoyaiba:demon_slayer_mark_wind
+    kimetsunoyaiba:demon_slayer_spawn_egg
+    kimetsunoyaiba:demon_spawn_egg
+    kimetsunoyaiba:dice_steak_arm
+    kimetsunoyaiba:dice_steak_body
+    kimetsunoyaiba:dice_steak_head_1
+    kimetsunoyaiba:dice_steak_head_2
+    kimetsunoyaiba:dice_steak_head_4
+    kimetsunoyaiba:dice_steak_head_helmet
+    kimetsunoyaiba:dice_steak_leg
+    kimetsunoyaiba:dice_steak_senior_demon_spawn_egg
+    kimetsunoyaiba:dice_steak_senior_golden_spawn_egg
+    kimetsunoyaiba:dice_steak_senior_item
+    kimetsunoyaiba:dice_steak_senior_spawn_egg
+    kimetsunoyaiba:dice_steak_senior_super_spawn_egg
+    kimetsunoyaiba:doctor_spawn_egg
+    kimetsunoyaiba:doma_hat
+    kimetsunoyaiba:doma_spawn_egg
+    kimetsunoyaiba:drum
+    kimetsunoyaiba:drum_armor_chestplate
+    kimetsunoyaiba:enmu_spawn_egg
+    kimetsunoyaiba:eyepatch
+    kimetsunoyaiba:farewell_note
+    kimetsunoyaiba:french_bread
+    kimetsunoyaiba:fuji_flower
+    kimetsunoyaiba:fusuma
+    kimetsunoyaiba:fusuma_2
+    kimetsunoyaiba:fusuma_4
+    kimetsunoyaiba:fusuma_42
+    kimetsunoyaiba:fusuma_5
+    kimetsunoyaiba:fusuma_52
+    kimetsunoyaiba:fusuma_6
+    kimetsunoyaiba:fusuma_62
+    kimetsunoyaiba:fusuma_7
+    kimetsunoyaiba:fusuma_72
+    kimetsunoyaiba:fusuma_flower
+    kimetsunoyaiba:fusuma_flower_2
+    kimetsunoyaiba:fusuma_mesh
+    kimetsunoyaiba:fusuma_mesh_2
+    kimetsunoyaiba:fusuma_window
+    kimetsunoyaiba:futon
+    kimetsunoyaiba:futon_2
+    kimetsunoyaiba:genya_spawn_egg
+    kimetsunoyaiba:gimlet
+    kimetsunoyaiba:goldfishbig_spawn_egg
+    kimetsunoyaiba:grandmother_spawn_egg
+    kimetsunoyaiba:gyokko_2_spawn_egg
+    kimetsunoyaiba:gyokko_spawn_egg
+    kimetsunoyaiba:gyutaro_head
+    kimetsunoyaiba:gyutaro_spawn_egg
+    kimetsunoyaiba:haganeduka_spawn_egg
+    kimetsunoyaiba:hair_muichiro_demon_slayer_mark_helmet
+    kimetsunoyaiba:hair_ornament_cherry_blossom
+    kimetsunoyaiba:hair_tsugikuni
+    kimetsunoyaiba:hairo_mant_chestplate
+    kimetsunoyaiba:hairo_spawn_egg
+    kimetsunoyaiba:hakuji_spawn_egg
+    kimetsunoyaiba:hand_demon_spawn_egg
+    kimetsunoyaiba:handfan
+    kimetsunoyaiba:hantengu_aizetsu_spawn_egg
+    kimetsunoyaiba:hantengu_karaku_spawn_egg
+    kimetsunoyaiba:hantengu_sekido_spawn_egg
+    kimetsunoyaiba:hantengu_spawn_egg
+    kimetsunoyaiba:hantengu_urogi_spawn_egg
+    kimetsunoyaiba:himejima_spawn_egg
+    kimetsunoyaiba:horns
+    kimetsunoyaiba:human_flesh
+    kimetsunoyaiba:human_flesh_2
+    kimetsunoyaiba:iguro_spawn_egg
+    kimetsunoyaiba:inosuke_spawn_egg
+    kimetsunoyaiba:item_constant_flux
+    kimetsunoyaiba:item_direction_arrow
+    kimetsunoyaiba:item_flame_dragon
+    kimetsunoyaiba:item_serpent
+    kimetsunoyaiba:item_sneak_helmet
+    kimetsunoyaiba:item_sneak_red_helmet
+    kimetsunoyaiba:kaburamaru_helmet
+    kimetsunoyaiba:kaede_leaves
+    kimetsunoyaiba:kaigaku_human_spawn_egg
+    kimetsunoyaiba:kaigaku_spawn_egg
+    kimetsunoyaiba:kakushi_spawn_egg
+    kimetsunoyaiba:kamanue_spawn_egg
+    kimetsunoyaiba:kanae_spawn_egg
+    kimetsunoyaiba:kanawo_buyer_spawn_egg
+    kimetsunoyaiba:kanawo_spawn_egg
+    kimetsunoyaiba:kanroji_spawn_egg
+    kimetsunoyaiba:kasugai_crow_spawn_egg
+    kimetsunoyaiba:kemari
+    kimetsunoyaiba:khakkhara
+    kimetsunoyaiba:kimetsu_window
+    kimetsunoyaiba:kitchen_knife
+    kimetsunoyaiba:kocho_spawn_egg
+    kimetsunoyaiba:kokushibo_head_1_helmet
+    kimetsunoyaiba:kokushibo_head_2_helmet
+    kimetsunoyaiba:kokushibo_spawn_egg
+    kimetsunoyaiba:kokushibo_tentacles_chestplate
+    kimetsunoyaiba:kotetsu_spawn_egg
+    kimetsunoyaiba:kunai
+    kimetsunoyaiba:kuwajima_spawn_egg
+    kimetsunoyaiba:kyogai_spawn_egg
+    kimetsunoyaiba:lantern_1
+    kimetsunoyaiba:lantern_2
+    kimetsunoyaiba:lantern_2red
+    kimetsunoyaiba:lantern_3
+    kimetsunoyaiba:liquor
+    kimetsunoyaiba:makomo_spawn_egg
+    kimetsunoyaiba:masachika_spawn_egg
+    kimetsunoyaiba:mask_hyottoko_helmet
+    kimetsunoyaiba:mask_tengu_helmet
+    kimetsunoyaiba:medicine_aging
+    kimetsunoyaiba:medicine_cell_destruction
+    kimetsunoyaiba:medicine_division_inhibition
+    kimetsunoyaiba:medicine_holder
+    kimetsunoyaiba:medicine_human_return
+    kimetsunoyaiba:michikatsu_spawn_egg
+    kimetsunoyaiba:microscope
+    kimetsunoyaiba:minigun
+    kimetsunoyaiba:mitarashi_dango
+    kimetsunoyaiba:muichiro_spawn_egg
+    kimetsunoyaiba:mukago_spawn_egg
+    kimetsunoyaiba:mukimuki_chestplate
+    kimetsunoyaiba:murata_spawn_egg
+    kimetsunoyaiba:muscular_mouse_spawn_egg
+    kimetsunoyaiba:muzan_2_spawn_egg
+    kimetsunoyaiba:muzan_hand
+    kimetsunoyaiba:muzan_hand_2
+    kimetsunoyaiba:muzan_hat_helmet
+    kimetsunoyaiba:muzan_spawn_egg
+    kimetsunoyaiba:muzan_tentacles_chestplate
+    kimetsunoyaiba:muzan_tentacles_helmet
+    kimetsunoyaiba:muzanblood_ore
+    kimetsunoyaiba:nakime_spawn_egg
+    kimetsunoyaiba:nezuko_spawn_egg
+    kimetsunoyaiba:nichirinsword
+    kimetsunoyaiba:nichirinsword_bamboo
+    kimetsunoyaiba:nichirinsword_bamboo_2
+    kimetsunoyaiba:nichirinsword_black
+    kimetsunoyaiba:nichirinsword_cherry_blossom
+    kimetsunoyaiba:nichirinsword_flame
+    kimetsunoyaiba:nichirinsword_genya
+    kimetsunoyaiba:nichirinsword_golden
+    kimetsunoyaiba:nichirinsword_himejima_1
+    kimetsunoyaiba:nichirinsword_himejima_2
+    kimetsunoyaiba:nichirinsword_iguro
+    kimetsunoyaiba:nichirinsword_inosuke
+    kimetsunoyaiba:nichirinsword_kaigaku
+    kimetsunoyaiba:nichirinsword_kanae
+    kimetsunoyaiba:nichirinsword_kanawo
+    kimetsunoyaiba:nichirinsword_kanroji
+    kimetsunoyaiba:nichirinsword_kocho
+    kimetsunoyaiba:nichirinsword_mist
+    kimetsunoyaiba:nichirinsword_rengoku
+    kimetsunoyaiba:nichirinsword_senior
+    kimetsunoyaiba:nichirinsword_senior_2
+    kimetsunoyaiba:nichirinsword_senior_super
+    kimetsunoyaiba:nichirinsword_shinazugawa
+    kimetsunoyaiba:nichirinsword_tanjiro
+    kimetsunoyaiba:nichirinsword_tanjiro_2
+    kimetsunoyaiba:nichirinsword_thunder
+    kimetsunoyaiba:nichirinsword_tokito
+    kimetsunoyaiba:nichirinsword_tomioka
+    kimetsunoyaiba:nichirinsword_uzui
+    kimetsunoyaiba:nichirinsword_water
+    kimetsunoyaiba:nichirinsword_wind
+    kimetsunoyaiba:nichirinsword_yoriichi
+    kimetsunoyaiba:nichirinsword_zenitsu
+    kimetsunoyaiba:nichirinswordmoon
+    kimetsunoyaiba:ohagi
+    kimetsunoyaiba:ohagi_block
+    kimetsunoyaiba:onigiri
+    kimetsunoyaiba:orca
+    kimetsunoyaiba:pancake
+    kimetsunoyaiba:pancake_block
+    kimetsunoyaiba:panda_armor_boots
+    kimetsunoyaiba:panda_armor_chestplate
+    kimetsunoyaiba:panda_armor_helmet
+    kimetsunoyaiba:panda_armor_leggings
+    kimetsunoyaiba:panda_hood_helmet
+    kimetsunoyaiba:pandan_spawn_egg
+    kimetsunoyaiba:peach
+    kimetsunoyaiba:peach_food
+    kimetsunoyaiba:pistol
+    kimetsunoyaiba:radish_with_miso
+    kimetsunoyaiba:ramune
+    kimetsunoyaiba:rengoku_head_1
+    kimetsunoyaiba:rengoku_head_2
+    kimetsunoyaiba:rengoku_spawn_egg
+    kimetsunoyaiba:rice_dumpling
+    kimetsunoyaiba:rifle
+    kimetsunoyaiba:rokuro_spawn_egg
+    kimetsunoyaiba:rui_brother_spawn_egg
+    kimetsunoyaiba:rui_father_spawn_egg
+    kimetsunoyaiba:rui_human_spawn_egg
+    kimetsunoyaiba:rui_mother_spawn_egg
+    kimetsunoyaiba:rui_sister_spawn_egg
+    kimetsunoyaiba:rui_spawn_egg
+    kimetsunoyaiba:rui_string
+    kimetsunoyaiba:saber
+    kimetsunoyaiba:sabito_mask_helmet
+    kimetsunoyaiba:sabito_spawn_egg
+    kimetsunoyaiba:sakura_mochi
+    kimetsunoyaiba:sakura_mochi_block
+    kimetsunoyaiba:salmon_radish
+    kimetsunoyaiba:salmon_radish_block
+    kimetsunoyaiba:scarlet_ironsand
+    kimetsunoyaiba:scarlet_ore
+    kimetsunoyaiba:scarlet_ore_block
+    kimetsunoyaiba:scarlet_ore_block_rare
+    kimetsunoyaiba:scarlet_ore_rare
+    kimetsunoyaiba:school_bag
+    kimetsunoyaiba:school_inosuke_spawn_egg
+    kimetsunoyaiba:school_kocho_spawn_egg
+    kimetsunoyaiba:school_nezuko_spawn_egg
+    kimetsunoyaiba:school_tanjiro_spawn_egg
+    kimetsunoyaiba:school_tomioka_spawn_egg
+    kimetsunoyaiba:school_zenitsu_spawn_egg
+    kimetsunoyaiba:set_meal
+    kimetsunoyaiba:shamisen
+    kimetsunoyaiba:shamisen_block
+    kimetsunoyaiba:shinazugawa_spawn_egg
+    kimetsunoyaiba:smoke_tube_holder
+    kimetsunoyaiba:snow_crystal_clear
+    kimetsunoyaiba:spear
+    kimetsunoyaiba:spider_demon_spawn_egg
+    kimetsunoyaiba:spider_head_helmet
+    kimetsunoyaiba:suigokubati_item
+    kimetsunoyaiba:susamaru_spawn_egg
+    kimetsunoyaiba:sword_hairo
+    kimetsunoyaiba:sword_kokushibo_1
+    kimetsunoyaiba:sword_kokushibo_2
+    kimetsunoyaiba:sword_kokushibo_body
+    kimetsunoyaiba:tamayo_spawn_egg
+    kimetsunoyaiba:tanjiro_demon_spawn_egg
+    kimetsunoyaiba:tanjiro_head_1
+    kimetsunoyaiba:tanjiro_head_2
+    kimetsunoyaiba:tanjiro_head_3
+    kimetsunoyaiba:tanjiro_head_4
+    kimetsunoyaiba:tanjiro_head_5
+    kimetsunoyaiba:tanjiro_spawn_egg
+    kimetsunoyaiba:tanjiro_tentacles_chestplate
+    kimetsunoyaiba:tatami
+    kimetsunoyaiba:tatami_2
+    kimetsunoyaiba:tea
+    kimetsunoyaiba:tea_block
+    kimetsunoyaiba:tengu_handfan
+    kimetsunoyaiba:tenpura
+    kimetsunoyaiba:tenpura_block
+    kimetsunoyaiba:thatch
+    kimetsunoyaiba:thatch_halfblock
+    kimetsunoyaiba:thatch_stair
+    kimetsunoyaiba:tile
+    kimetsunoyaiba:tile_half_block
+    kimetsunoyaiba:tile_stair
+    kimetsunoyaiba:tomioka_spawn_egg
+    kimetsunoyaiba:toyosan_spawn_egg
+    kimetsunoyaiba:ubuyashiki_spawn_egg
+    kimetsunoyaiba:udon
+    kimetsunoyaiba:udon_block
+    kimetsunoyaiba:uniform_boots
+    kimetsunoyaiba:uniform_chestplate
+    kimetsunoyaiba:uniform_genya_chestplate
+    kimetsunoyaiba:uniform_iguro_chestplate
+    kimetsunoyaiba:uniform_kocho_boots
+    kimetsunoyaiba:uniform_kocho_chestplate
+    kimetsunoyaiba:uniform_leggings
+    kimetsunoyaiba:uniform_muichiro_chestplate
+    kimetsunoyaiba:uniform_muichiro_helmet
+    kimetsunoyaiba:uniform_muichiro_leggings
+    kimetsunoyaiba:uniform_rengoku_boots
+    kimetsunoyaiba:uniform_rengoku_chestplate
+    kimetsunoyaiba:uniform_shinazugawa_chestplate
+    kimetsunoyaiba:uniform_tanjiro_chestplate
+    kimetsunoyaiba:uniform_tomioka_chestplate
+    kimetsunoyaiba:uniform_uzui_boots
+    kimetsunoyaiba:uniform_uzui_chestplate
+    kimetsunoyaiba:uniform_uzui_leggings
+    kimetsunoyaiba:uniform_zenitsu_boots
+    kimetsunoyaiba:uniform_zenitsu_chestplate
+    kimetsunoyaiba:urogi_hand
+    kimetsunoyaiba:urogi_wings_chestplate
+    kimetsunoyaiba:urokodaki_spawn_egg
+    kimetsunoyaiba:uzui_decoration_helmet
+    kimetsunoyaiba:uzui_spawn_egg
+    kimetsunoyaiba:vase_item
+    kimetsunoyaiba:wakuraba_spawn_egg
+    kimetsunoyaiba:watermelon
+    kimetsunoyaiba:whistle
+    kimetsunoyaiba:yachan_brother_spawn_egg
+    kimetsunoyaiba:yachan_spawn_egg
+    kimetsunoyaiba:yahaba_spawn_egg
+    kimetsunoyaiba:yorichi_0_armor_chestplate
+    kimetsunoyaiba:yorichi_0_spawn_egg
+    kimetsunoyaiba:yoriichi_spawn_egg
+    kimetsunoyaiba:yushiro_spawn_egg
+    kimetsunoyaiba:zenitsu_head_1
+    kimetsunoyaiba:zenitsu_head_2
+    kimetsunoyaiba:zenitsu_head_helmet
+    kimetsunoyaiba:zenitsu_spawn_egg
+    kimetsunoyaiba:zohakuten_clothes_chestplate
+    kimetsunoyaiba:zohakuten_drum_chestplate
+    kimetsunoyaiba:zohakuten_spawn_egg
+
+Missing minecraft:block:
+    kimetsunoyaiba:bamboo_fence
+    kimetsunoyaiba:bento_block
+    kimetsunoyaiba:brazier
+    kimetsunoyaiba:cherry_blossoms
+    kimetsunoyaiba:chest_of_drawer
+    kimetsunoyaiba:cooker
+    kimetsunoyaiba:cushion_blue
+    kimetsunoyaiba:cushion_green
+    kimetsunoyaiba:cushion_purple
+    kimetsunoyaiba:cushion_red
+    kimetsunoyaiba:fuji_flower
+    kimetsunoyaiba:fusuma
+    kimetsunoyaiba:fusuma_2
+    kimetsunoyaiba:fusuma_4
+    kimetsunoyaiba:fusuma_42
+    kimetsunoyaiba:fusuma_5
+    kimetsunoyaiba:fusuma_52
+    kimetsunoyaiba:fusuma_6
+    kimetsunoyaiba:fusuma_62
+    kimetsunoyaiba:fusuma_7
+    kimetsunoyaiba:fusuma_72
+    kimetsunoyaiba:fusuma_flower
+    kimetsunoyaiba:fusuma_flower_2
+    kimetsunoyaiba:fusuma_mesh
+    kimetsunoyaiba:fusuma_mesh_2
+    kimetsunoyaiba:fusuma_window
+    kimetsunoyaiba:futon
+    kimetsunoyaiba:futon_2
+    kimetsunoyaiba:kaede_leaves
+    kimetsunoyaiba:kimetsu_window
+    kimetsunoyaiba:lantern_1
+    kimetsunoyaiba:lantern_2
+    kimetsunoyaiba:lantern_2red
+    kimetsunoyaiba:lantern_3
+    kimetsunoyaiba:medicine_holder
+    kimetsunoyaiba:microscope
+    kimetsunoyaiba:muzanblood_ore
+    kimetsunoyaiba:ohagi_block
+    kimetsunoyaiba:pancake_block
+    kimetsunoyaiba:rui_string
+    kimetsunoyaiba:sakura_mochi_block
+    kimetsunoyaiba:salmon_radish_block
+    kimetsunoyaiba:scarlet_ore_block
+    kimetsunoyaiba:scarlet_ore_block_rare
+    kimetsunoyaiba:shamisen_block
+    kimetsunoyaiba:smoke_tube_holder
+    kimetsunoyaiba:tatami
+    kimetsunoyaiba:tatami_2
+    kimetsunoyaiba:tea_block
+    kimetsunoyaiba:tenpura_block
+    kimetsunoyaiba:thatch
+    kimetsunoyaiba:thatch_halfblock
+    kimetsunoyaiba:thatch_stair
+    kimetsunoyaiba:tile
+    kimetsunoyaiba:tile_half_block
+    kimetsunoyaiba:tile_stair
+    kimetsunoyaiba:udon_block
+
+Missing minecraft:mob_effect:
+    kimetsunoyaiba:attack_endure
+    kimetsunoyaiba:blood_demon_art
+    kimetsunoyaiba:cell_destruction
+    kimetsunoyaiba:cold
+    kimetsunoyaiba:compass_needle
+    kimetsunoyaiba:cool_time
+    kimetsunoyaiba:cooltime_2
+    kimetsunoyaiba:demon
+    kimetsunoyaiba:dream
+    kimetsunoyaiba:god_hand
+    kimetsunoyaiba:immvable
+    kimetsunoyaiba:potion_demon_slayer_mark
+    kimetsunoyaiba:potion_transparent_world
+    kimetsunoyaiba:potion_yorichi
+    kimetsunoyaiba:regeneration_inhibition
+    kimetsunoyaiba:suffocation
+    kimetsunoyaiba:total_concentration
+    kimetsunoyaiba:wisteriapoison
+
+Missing minecraft:enchantment:
+    kimetsunoyaiba:crimson_red_blade
+
+Missing minecraft:entity_type:
+    kimetsunoyaiba:akaza
+    kimetsunoyaiba:akaza_punch_projectile
+    kimetsunoyaiba:bamboo
+    kimetsunoyaiba:blood_demon_art_genya_tree
+    kimetsunoyaiba:bluesilverchaoticafterglow_projectile
+    kimetsunoyaiba:boar
+    kimetsunoyaiba:boar_golden
+    kimetsunoyaiba:bullet_slashing_moon_projectile
+    kimetsunoyaiba:butterfly
+    kimetsunoyaiba:car
+    kimetsunoyaiba:car_golden
+    kimetsunoyaiba:chair_red
+    kimetsunoyaiba:claws_purifying_wind
+    kimetsunoyaiba:coccon
+    kimetsunoyaiba:cold_white_princesses
+    kimetsunoyaiba:constant_flux
+    kimetsunoyaiba:countless_striking_trees
+    kimetsunoyaiba:daki
+    kimetsunoyaiba:demon
+    kimetsunoyaiba:demon_10
+    kimetsunoyaiba:demon_2
+    kimetsunoyaiba:demon_3
+    kimetsunoyaiba:demon_4
+    kimetsunoyaiba:demon_5
+    kimetsunoyaiba:demon_6
+    kimetsunoyaiba:demon_7
+    kimetsunoyaiba:demon_8
+    kimetsunoyaiba:demon_9
+    kimetsunoyaiba:demon_slayer
+    kimetsunoyaiba:dice_steak_senior
+    kimetsunoyaiba:dice_steak_senior_demon
+    kimetsunoyaiba:dice_steak_senior_golden
+    kimetsunoyaiba:dice_steak_senior_super
+    kimetsunoyaiba:direction_arrow
+    kimetsunoyaiba:doctor
+    kimetsunoyaiba:doma
+    kimetsunoyaiba:doma_kekkizyutu_projectile
+    kimetsunoyaiba:doma_mini
+    kimetsunoyaiba:dynamite
+    kimetsunoyaiba:energy_wave
+    kimetsunoyaiba:enko
+    kimetsunoyaiba:enmu
+    kimetsunoyaiba:enmu_tentacle
+    kimetsunoyaiba:enmu_tentacle_hand
+    kimetsunoyaiba:enmu_train
+    kimetsunoyaiba:entity_compass_needle
+    kimetsunoyaiba:entity_compass_needle_2
+    kimetsunoyaiba:flame_dragon
+    kimetsunoyaiba:genya
+    kimetsunoyaiba:goldfishbig
+    kimetsunoyaiba:grandmother
+    kimetsunoyaiba:gyokko
+    kimetsunoyaiba:gyokko_2
+    kimetsunoyaiba:gyokko_fish_projectile
+    kimetsunoyaiba:gyokko_goldfish
+    kimetsunoyaiba:gyutaro
+    kimetsunoyaiba:haganeduka
+    kimetsunoyaiba:hairo
+    kimetsunoyaiba:hakuji
+    kimetsunoyaiba:hand_demon
+    kimetsunoyaiba:hand_demon_hand
+    kimetsunoyaiba:hantengu
+    kimetsunoyaiba:hantengu_aizetsu
+    kimetsunoyaiba:hantengu_karaku
+    kimetsunoyaiba:hantengu_sekido
+    kimetsunoyaiba:hantengu_urogi
+    kimetsunoyaiba:himejima
+    kimetsunoyaiba:himejima_axe
+    kimetsunoyaiba:himejima_axe_2
+    kimetsunoyaiba:himejima_ball
+    kimetsunoyaiba:himejima_ball_2
+    kimetsunoyaiba:honoikaduchi
+    kimetsunoyaiba:icelotus
+    kimetsunoyaiba:icicle_2_projectile
+    kimetsunoyaiba:icicle_projectile
+    kimetsunoyaiba:iguro
+    kimetsunoyaiba:inosuke
+    kimetsunoyaiba:kaigaku
+    kimetsunoyaiba:kaigaku_human
+    kimetsunoyaiba:kakushi
+    kimetsunoyaiba:kamanue
+    kimetsunoyaiba:kanae
+    kimetsunoyaiba:kanawo
+    kimetsunoyaiba:kanawo_buyer
+    kimetsunoyaiba:kanroji
+    kimetsunoyaiba:kasugai_crow
+    kimetsunoyaiba:kemari_projectile
+    kimetsunoyaiba:kocho
+    kimetsunoyaiba:kokushibo
+    kimetsunoyaiba:kokushirinten
+    kimetsunoyaiba:kotetsu
+    kimetsunoyaiba:kuwajima
+    kimetsunoyaiba:kyogai
+    kimetsunoyaiba:makomo
+    kimetsunoyaiba:masachika
+    kimetsunoyaiba:michikatsu
+    kimetsunoyaiba:muichiro
+    kimetsunoyaiba:mukago
+    kimetsunoyaiba:murata
+    kimetsunoyaiba:muscular_mouse
+    kimetsunoyaiba:muzan
+    kimetsunoyaiba:muzan_2
+    kimetsunoyaiba:nakime
+    kimetsunoyaiba:needle_projectile
+    kimetsunoyaiba:nezuko
+    kimetsunoyaiba:panda_face
+    kimetsunoyaiba:pandan
+    kimetsunoyaiba:peach_projectile
+    kimetsunoyaiba:pistol_projectile
+    kimetsunoyaiba:ranshiki_projectile
+    kimetsunoyaiba:rengoku
+    kimetsunoyaiba:rokuro
+    kimetsunoyaiba:rui
+    kimetsunoyaiba:rui_brother
+    kimetsunoyaiba:rui_demon_art_string
+    kimetsunoyaiba:rui_father
+    kimetsunoyaiba:rui_human
+    kimetsunoyaiba:rui_mother
+    kimetsunoyaiba:rui_sister
+    kimetsunoyaiba:sabito
+    kimetsunoyaiba:school_inosuke
+    kimetsunoyaiba:school_kocho
+    kimetsunoyaiba:school_nezuko
+    kimetsunoyaiba:school_tanjiro
+    kimetsunoyaiba:school_tomioka
+    kimetsunoyaiba:school_zenitsu
+    kimetsunoyaiba:serpent
+    kimetsunoyaiba:shadow_wolf
+    kimetsunoyaiba:shinazugawa
+    kimetsunoyaiba:slashing_moon
+    kimetsunoyaiba:sneak
+    kimetsunoyaiba:sneak_2
+    kimetsunoyaiba:spider_demon
+    kimetsunoyaiba:spider_net_2_projectile
+    kimetsunoyaiba:spider_net_3_projectile
+    kimetsunoyaiba:spider_net_projectile
+    kimetsunoyaiba:stone_sword
+    kimetsunoyaiba:suigokubati
+    kimetsunoyaiba:suirenbosatsu
+    kimetsunoyaiba:susamaru
+    kimetsunoyaiba:swamp_demon
+    kimetsunoyaiba:tamayo
+    kimetsunoyaiba:tanjiro
+    kimetsunoyaiba:tanjiro_demon
+    kimetsunoyaiba:temple_demon
+    kimetsunoyaiba:tobi_chigama_projectile
+    kimetsunoyaiba:tomioka
+    kimetsunoyaiba:toyosan
+    kimetsunoyaiba:ubuyashiki
+    kimetsunoyaiba:urokodaki
+    kimetsunoyaiba:uzui
+    kimetsunoyaiba:vase
+    kimetsunoyaiba:wakuraba
+    kimetsunoyaiba:yachan
+    kimetsunoyaiba:yachan_brother
+    kimetsunoyaiba:yahaba
+    kimetsunoyaiba:yokaino_mayu_projectile
+    kimetsunoyaiba:yorichi_0
+    kimetsunoyaiba:yoriichi
+    kimetsunoyaiba:yushiro
+    kimetsunoyaiba:zenitsu
+    kimetsunoyaiba:zohakuten
+
+
+[25Oct2025 04:37:46.947] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[25Oct2025 04:37:48.617] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[25Oct2025 04:37:48.617] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[25Oct2025 04:37:48.720] [main/INFO] [com.simibubi.create.Create/]: Created 266 recipes which will be injected into the game
+[25Oct2025 04:37:48.731] [main/INFO] [com.simibubi.create.Create/]: Created 21 tags which will be injected into the game
+[25Oct2025 04:37:48.786] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:kimetsunoyaiba
+[25Oct2025 04:37:49.556] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[25Oct2025 04:37:50.113] [main/WARN] [net.minecraft.server.Main/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:195) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.IllegalStateException: Overworld settings missing
+	at net.minecraft.world.level.levelgen.WorldDimensions.<init>(WorldDimensions.java:50) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$0(RecordCodecBuilder.java:185) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.mapBoth(Either.java:33) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.map(DataResult.java:111) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.lambda$decode$1(RecordCodecBuilder.java:184) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$15(DataResult.java:144) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$17(DataResult.java:143) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$1.decode(RecordCodecBuilder.java:183) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:249) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.decode(Decoder.java:22) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:26) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_247212_(LevelStorageSource.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_264027_(LevelStorageSource.java:244) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_230817_(LevelStorageSource.java:202) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.m_246049_(LevelStorageSource.java:439) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	... 15 more
